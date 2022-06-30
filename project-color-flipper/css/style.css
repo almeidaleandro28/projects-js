@@ -1,0 +1,48 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+}
+
+body {
+  height: 100vh;
+}
+
+/* nav */
+.nav{
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link {
+  padding-right: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* main */
+.main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--black);
+  padding: 50px 70px;
+  background-color: var(--white);
+}
+p {
+  text-transform: uppercase;
+}
+.change-color {}
+.btn {
+  
+}
