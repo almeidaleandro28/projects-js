@@ -1,0 +1,12 @@
+:root {
+  --background: #F1F5F8;
+  --blue: #49A7E8;
+  --blue-ligth: #E9F5FD;
+  --blue-dark: #102B43;
+  --blue-ligth-2: #7188A2;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+}
