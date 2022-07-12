@@ -13,8 +13,12 @@ body {
 }
 /* main */
 .main {
-  height: 100%;
+  align-items: center;
+  display: flex;
   background-color: var(--background);
+  justify-content: center;
+  height: 100%;
+
 }
 /* container */
 .container {
@@ -22,11 +26,18 @@ body {
 }
 
 .title {}
+.title-secundary 
 /* card */
 .card {}
+/* card header */
+.card-header {}
+.card-avatar
+/* card-body */
+.card-body {}
 .card-name {}
 .card-job {}
 .card-info {}
+/* card footer */
 
 /* card-buttons */
 .card-buttons{}
