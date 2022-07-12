@@ -9,4 +9,27 @@
 
 body {
   background-color: var(--background);
+  height: 100vh;
 }
+/* main */
+.main {
+  height: 100%;
+  background-color: var(--background);
+}
+/* container */
+.container {
+
+}
+
+.title {}
+/* card */
+.card {}
+.card-name {}
+.card-job {}
+.card-info {}
+
+/* card-buttons */
+.card-buttons{}
+.btn-prev {}
+.btn-next {}
+.btn-random {}
