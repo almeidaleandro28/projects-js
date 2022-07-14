@@ -22,7 +22,10 @@ body {
 }
 /* container */
 .container {
-
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .title {}
@@ -30,17 +33,40 @@ body {
 /* card */
 .card {}
 /* card header */
-.card-header {}
-.card-avatar
+.card-header {
+  height: 150px;
+  position: relative;
+  width: 150px;
+  margin: 0 auto;
+}
+.card-avatar {
+  display: block;
+  height: 100%;
+  border-radius: 50%;
+  width: 100%;
+}
 /* card-body */
 .card-body {}
-.card-name {}
-.card-job {}
+.card-name {
+  color: var(--blue-dark);
+}
+.card-job {
+  color: var(--blue);
+}
 .card-info {}
 /* card footer */
 
 /* card-buttons */
 .card-buttons{}
-.btn-prev {}
-.btn-next {}
-.btn-random {}
+.btn-prev {
+  background-color: var(--white);
+  color: var(--blue);
+}
+.btn-next {
+  background-color: var(--white);
+  color: var(--blue);
+}
+.btn-random {
+  background-color: var(--blue-ligth);
+  color: var(--blue);
+}
