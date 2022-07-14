@@ -25,10 +25,16 @@ body {
   background-color: var(--white);
   display: flex;
   flex-direction: column;
+  padding: 1rem 1.5rem;
   text-align: center;
 }
 
-.title {}
+.title {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+
 .title-secundary 
 /* card */
 .card {}
