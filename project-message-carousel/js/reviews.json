@@ -1,9 +1,16 @@
 [
 {
-  "id": 1,
+  "id": 0,
   "name": "Karen R. Troutman",
   "job": "UX",
   "avatar": "people-ux.jpg",
   "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, dicta. Amet aut voluptatem rerum sint dolorem omnis nisi temporibus ratione quaerat quis natus provident ducimus blanditiis magni inventore, veritatis quae?"
+ },
+ {
+  "id": 1,
+  "name": "Starr J. Mullin",
+  "job": "DBA",
+  "avatar": "prople-dba.jpg",
+  "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, dignissimos."
  }
 ] 

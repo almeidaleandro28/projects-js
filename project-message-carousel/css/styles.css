@@ -11,6 +11,11 @@ body {
   background-color: var(--background);
   height: 100vh;
 }
+/* global */
+.btn {
+  font: 1.5rem;
+  padding: 10px 15px;
+}
 /* main */
 .main {
   align-items: center;
