@@ -29,7 +29,6 @@ let currentItem = 0;
 // load initial item
 const loadItem = () => {
   const item = coments[ currentItem ];
-  console.log(item);
   avatar.src = `./img/${item.img}`; 
   author.innerHTML = item.name;
   job.innerHTML = item.job;
@@ -39,30 +38,35 @@ const loadItem = () => {
 window.addEventListener("DOMContentLoaded", loadItem);
 
 const nextComment = () => {
-  currentItem > coments.length ? currentItem = 0 : currentItem++;
-  showPerson( currentItem );
+  currentItem++
+  if ( currentItem > coments.length - 1 ) currentItem = 0;
+  showPerson( currentItem ); 
 };
 const previousComent = () => {
   currentItem--;
   if( currentItem < 0 ) {
     currentItem = coments.length -1;
-    console.log(coments.length);
-    console.log( currentItem );
   }
   showPerson( currentItem );
-
 };
 
 // show person 
 const showPerson = ( person ) => {
   const item = coments[ person ];
-  console.log(item);
   avatar.src = `./img/${item.img}`; 
   author.innerHTML = item.name;
   job.innerHTML = item.job;
   information.innerHTML = item.text;
 }
 
+// random
+const randomPerson = () => {
+  let currentItem =  Math.floor( Math.random() * coments.length );
+  showPerson( currentItem );
+}
+
+// random Person 
+btnRandom.addEventListener("click", randomPerson )
 // next comment 
 btnNext.addEventListener("click", nextComment );
 // previous comment
